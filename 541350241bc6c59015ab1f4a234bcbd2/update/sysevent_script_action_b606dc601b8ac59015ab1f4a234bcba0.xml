@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_script/>
+        <description/>
+        <event_name>release_date.send_to_lower_env</event_name>
+        <name>Post release date to lower environment</name>
+        <order>100</order>
+        <script><![CDATA[(function(){
+    
+	try {
+        var data = JSON.parse(event.parm1);
+        var resourcePath = gs.getProperty('release_date.resource_path');
+
+        var endpoint = data.url + resourcePath + '?sys_id=' + data.sys_id + '&release_date=' + data.timestamp;
+
+        // PUT request
+        var request = new sn_ws.RESTMessageV2();
+        request.setEndpoint(endpoint);
+        request.setHttpMethod('PUT');
+
+        request.setBasicAuth(data.user, data.pass);
+        request.setRequestHeader("Accept", "application/json");
+
+        request.execute();
+		
+    } catch (e) {
+        gs.error(JSON.stringify(e, null, 2));
+    }
+	
+})();]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>alealvar</sys_created_by>
+        <sys_created_on>2022-03-01 20:43:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b606dc601b8ac59015ab1f4a234bcba0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Post release date to lower environment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Release Date" source="541350241bc6c59015ab1f4a234bcbd2">541350241bc6c59015ab1f4a234bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</sys_scope>
+        <sys_update_name>sysevent_script_action_b606dc601b8ac59015ab1f4a234bcba0</sys_update_name>
+        <sys_updated_by>alealvar</sys_updated_by>
+        <sys_updated_on>2022-03-01 20:44:06</sys_updated_on>
+    </sysevent_script_action>
+</record_update>
