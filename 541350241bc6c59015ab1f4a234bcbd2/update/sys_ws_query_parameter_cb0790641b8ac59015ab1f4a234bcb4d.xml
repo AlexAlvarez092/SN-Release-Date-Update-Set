@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter">
+    <sys_ws_query_parameter action="INSERT_OR_UPDATE">
+        <example_value>1640106276</example_value>
+        <name>release_date</name>
+        <required>false</required>
+        <short_description>Unix-format timestamp</short_description>
+        <sys_class_name>sys_ws_query_parameter</sys_class_name>
+        <sys_created_by>alealvar</sys_created_by>
+        <sys_created_on>2022-03-01 20:46:49</sys_created_on>
+        <sys_id>cb0790641b8ac59015ab1f4a234bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>release_date</sys_name>
+        <sys_package display_value="Release Date" source="541350241bc6c59015ab1f4a234bcbd2">541350241bc6c59015ab1f4a234bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_cb0790641b8ac59015ab1f4a234bcb4d</sys_update_name>
+        <sys_updated_by>alealvar</sys_updated_by>
+        <sys_updated_on>2022-03-01 20:46:49</sys_updated_on>
+        <web_service_definition display_value="Update Set">5ae65c241b8ac59015ab1f4a234bcbaf</web_service_definition>
+    </sys_ws_query_parameter>
+</record_update>

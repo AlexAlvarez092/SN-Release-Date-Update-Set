@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map">
+    <sys_ws_query_parameter_map action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ws_query_parameter_map</sys_class_name>
+        <sys_created_by>alealvar</sys_created_by>
+        <sys_created_on>2022-03-01 20:50:40</sys_created_on>
+        <sys_id>4e0814e41b8ac59015ab1f4a234bcb13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b56798641b8ac59015ab1f4a234bcb4f</sys_name>
+        <sys_package display_value="Release Date" source="541350241bc6c59015ab1f4a234bcbd2">541350241bc6c59015ab1f4a234bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_map_4e0814e41b8ac59015ab1f4a234bcb13</sys_update_name>
+        <sys_updated_by>alealvar</sys_updated_by>
+        <sys_updated_on>2022-03-01 20:50:40</sys_updated_on>
+        <web_service_operation display_value="Release date">11a7d4a41b8ac59015ab1f4a234bcba6</web_service_operation>
+        <web_service_query_parameter display_value="sys_id">b56798641b8ac59015ab1f4a234bcb4f</web_service_query_parameter>
+    </sys_ws_query_parameter_map>
+</record_update>
