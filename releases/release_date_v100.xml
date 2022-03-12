@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-03-12 13:20:33">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Set the release date in the update set as soon as it is committed in the upper instance</description>
+<inserted/>
+<name>Release Date</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>0c1117f71b828d1015ab1f4a234bcb81</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>alealvar</sys_created_by>
+<sys_created_on>2022-03-12 13:20:32</sys_created_on>
+<sys_id>a48ad3b31bc28d1015ab1f4a234bcbbd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>alealvar</sys_updated_by>
+<sys_updated_on>2022-03-12 13:20:32</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_query_parameter_b56798641b8ac59015ab1f4a234bcb4f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter"><sys_ws_query_parameter action="INSERT_OR_UPDATE"><example_value>6508f4d22fe230108eabd2172799b60f</example_value><name>sys_id</name><required>false</required><short_description>sys_update_set.sys_id (remote instance)</short_description><sys_class_name>sys_ws_query_parameter</sys_class_name><sys_created_by>alealvar</sys_created_by><sys_created_on>2022-03-01 20:48:23</sys_created_on><sys_id>b56798641b8ac59015ab1f4a234bcb4f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_id</sys_name><sys_package display_value="Release Date" source="541350241bc6c59015ab1f4a234bcbd2">541350241bc6c59015ab1f4a234bcbd2</sys_package><sys_policy/><sys_scope display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</sys_scope><sys_update_name>sys_ws_query_parameter_b56798641b8ac59015ab1f4a234bcb4f</sys_update_name><sys_updated_by>alealvar</sys_updated_by><sys_updated_on>2022-03-01 20:48:23</sys_updated_on><web_service_definition display_value="Update Set">5ae65c241b8ac59015ab1f4a234bcbaf</web_service_definition></sys_ws_query_parameter></record_update>]]></payload>
+<payload_hash>396260506</payload_hash>
+<remote_update_set display_value="Release Date">a48ad3b31bc28d1015ab1f4a234bcbbd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>alealvar</sys_created_by>
+<sys_created_on>2022-03-12 13:20:32</sys_created_on>
+<sys_id>288a17771bc28d1015ab1f4a234bcb3b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17f7e23ea400000001</sys_recorded_at>
+<sys_updated_by>alealvar</sys_updated_by>
+<sys_updated_on>2022-03-12 13:20:32</sys_updated_on>
+<table/>
+<target_name>sys_id</target_name>
+<type>Scripted REST Query Parameter</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_875814a41b8ac59015ab1f4a234bcb64</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>REST API Resource path in the remote environment. By default: released</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>release_date.resource_path</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>alealvar</sys_created_by><sys_created_on>2022-03-01 20:52:54</sys_created_on><sys_id>875814a41b8ac59015ab1f4a234bcb64</sys_id><sys_mod_count>0</sys_mod_count><sys_name>release_date.resource_path</sys_name><sys_package display_value="Release Date" source="541350241bc6c59015ab1f4a234bcbd2">541350241bc6c59015ab1f4a234bcbd2</sys_package><sys_policy/><sys_scope display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</sys_scope><sys_update_name>sys_properties_875814a41b8ac59015ab1f4a234bcb64</sys_update_name><sys_updated_by>alealvar</sys_updated_by><sys_updated_on>2022-03-01 20:52:54</sys_updated_on><type>string</type><value>release_date.resource_path</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=875814a41b8ac59015ab1f4a234bcb64"/></record_update>]]></payload>
+<payload_hash>167514369</payload_hash>
+<remote_update_set display_value="Release Date">a48ad3b31bc28d1015ab1f4a234bcbbd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>alealvar</sys_created_by>
+<sys_created_on>2022-03-12 13:20:32</sys_created_on>
+<sys_id>2c8a17771bc28d1015ab1f4a234bcb3a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17f7e23ea690000001</sys_recorded_at>
+<sys_updated_by>alealvar</sys_updated_by>
+<sys_updated_on>2022-03-12 13:20:32</sys_updated_on>
+<table/>
+<target_name>release_date.resource_path</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_script_action_b606dc601b8ac59015ab1f4a234bcba0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_script_action"&gt;&lt;sysevent_script_action action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition_script/&gt;&lt;description/&gt;&lt;event_name&gt;release_date.send_to_lower_env&lt;/event_name&gt;&lt;name&gt;Post release date to lower environment&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function(){
+    
+	try {
+        var data = JSON.parse(event.parm1);
+        var resourcePath = gs.getProperty('release_date.resource_path');
+
+        var endpoint = data.url + resourcePath + '?sys_id=' + data.sys_id + '&amp;release_date=' + data.timestamp;
+
+        // PUT request
+        var request = new sn_ws.RESTMessageV2();
+        request.setEndpoint(endpoint);
+        request.setHttpMethod('PUT');
+
+        request.setBasicAuth(data.user, data.pass);
+        request.setRequestHeader("Accept", "application/json");
+
+        request.execute();
+		
+    } catch (e) {
+        gs.error(JSON.stringify(e, null, 2));
+    }
+	
+})();]]&gt;&lt;/script&gt;&lt;synchronous&gt;false&lt;/synchronous&gt;&lt;sys_class_name&gt;sysevent_script_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alealvar&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-01 20:43:59&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b606dc601b8ac59015ab1f4a234bcba0&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Post release date to lower environment&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Release Date" source="541350241bc6c59015ab1f4a234bcbd2"&gt;541350241bc6c59015ab1f4a234bcbd2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Release Date"&gt;541350241bc6c59015ab1f4a234bcbd2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_script_action_b606dc601b8ac59015ab1f4a234bcba0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alealvar&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-01 20:44:06&lt;/sys_updated_on&gt;&lt;/sysevent_script_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-372198322</payload_hash>
+<remote_update_set display_value="Release Date">a48ad3b31bc28d1015ab1f4a234bcbbd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>alealvar</sys_created_by>
+<sys_created_on>2022-03-12 13:20:32</sys_created_on>
+<sys_id>2c8ad3b31bc28d1015ab1f4a234bcbbd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17f7e23ea2b0000001</sys_recorded_at>
+<sys_updated_by>alealvar</sys_updated_by>
+<sys_updated_on>2022-03-12 13:20:32</sys_updated_on>
+<table>release_date.send_to_lower_env</table>
+<target_name>Post release date to lower environment</target_name>
+<type>Script Action</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_query_parameter_map_7bf754e41b8ac59015ab1f4a234bcb0b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map"><sys_ws_query_parameter_map action="INSERT_OR_UPDATE"><sys_class_name>sys_ws_query_parameter_map</sys_class_name><sys_created_by>alealvar</sys_created_by><sys_created_on>2022-03-01 20:50:31</sys_created_on><sys_id>7bf754e41b8ac59015ab1f4a234bcb0b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cb0790641b8ac59015ab1f4a234bcb4d</sys_name><sys_package display_value="Release Date" source="541350241bc6c59015ab1f4a234bcbd2">541350241bc6c59015ab1f4a234bcbd2</sys_package><sys_policy/><sys_scope display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</sys_scope><sys_update_name>sys_ws_query_parameter_map_7bf754e41b8ac59015ab1f4a234bcb0b</sys_update_name><sys_updated_by>alealvar</sys_updated_by><sys_updated_on>2022-03-01 20:50:31</sys_updated_on><web_service_operation display_value="Release date">11a7d4a41b8ac59015ab1f4a234bcba6</web_service_operation><web_service_query_parameter display_value="release_date">cb0790641b8ac59015ab1f4a234bcb4d</web_service_query_parameter></sys_ws_query_parameter_map></record_update>]]></payload>
+<payload_hash>-970861611</payload_hash>
+<remote_update_set display_value="Release Date">a48ad3b31bc28d1015ab1f4a234bcbbd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>alealvar</sys_created_by>
+<sys_created_on>2022-03-12 13:20:33</sys_created_on>
+<sys_id>608a17771bc28d1015ab1f4a234bcb3c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17f7e23ea550000001</sys_recorded_at>
+<sys_updated_by>alealvar</sys_updated_by>
+<sys_updated_on>2022-03-12 13:20:33</sys_updated_on>
+<table/>
+<target_name>cb0790641b8ac59015ab1f4a234bcb4d</target_name>
+<type>Scripted REST Query Parameter Associatio</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_11a7d4a41b8ac59015ab1f4a234bcba6</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;cf9d01d3e73003009d6247e603f6a990&lt;/enforce_acl&gt;&lt;http_method&gt;PUT&lt;/http_method&gt;&lt;name&gt;Release date&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    var id = request.queryParams.sys_id.toString();
+    var release_date = request.queryParams.release_date.toString();
+
+    if (gs.nil(id)) {
+        return new sn_ws_err.BadRequestError('ID is a mandatory query parameter');
+    }
+
+    if (gs.nil(release_date)) {
+        return new sn_ws_err.BadRequestError('Release date is a mandatory query parameter');
+    }
+
+    var grSet = new GlideRecord('sys_update_set');
+    if (!grSet.get(id)) {
+        return new sn_ws_err.NotFoundError('Update set not found. ID: ' + id);
+    }
+
+    var gdtRelease = new GlideDateTime;
+    gdtRelease.setNumericValue(release_date);
+
+    grSet.autoSysFields(false);
+    grSet.setWorkflow(false);
+
+    grSet.setValue('release_date', gdtRelease);
+    grSet.update();
+    return true;
+
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/660033/update_set/released&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/released&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alealvar&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-01 20:50:20&lt;/sys_created_on&gt;&lt;sys_id&gt;11a7d4a41b8ac59015ab1f4a234bcba6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Release date&lt;/sys_name&gt;&lt;sys_package display_value="Release Date" source="541350241bc6c59015ab1f4a234bcbd2"&gt;541350241bc6c59015ab1f4a234bcbd2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Release Date"&gt;541350241bc6c59015ab1f4a234bcbd2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_11a7d4a41b8ac59015ab1f4a234bcba6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alealvar&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-01 20:50:20&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="Update Set"&gt;5ae65c241b8ac59015ab1f4a234bcbaf&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-82155705</payload_hash>
+<remote_update_set display_value="Release Date">a48ad3b31bc28d1015ab1f4a234bcbbd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>alealvar</sys_created_by>
+<sys_created_on>2022-03-12 13:20:32</sys_created_on>
+<sys_id>648a17771bc28d1015ab1f4a234bcb3b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17f7e23ea4b0000001</sys_recorded_at>
+<sys_updated_by>alealvar</sys_updated_by>
+<sys_updated_on>2022-03-12 13:20:32</sys_updated_on>
+<table/>
+<target_name>Release date</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_541350241bc6c59015ab1f4a234bcbd2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>true</can_edit_in_studio><enforce_license>log</enforce_license><guided_setup_guid/><hide_on_ui>false</hide_on_ui><installed_as_dependency>false</installed_as_dependency><js_level>helsinki_es5</js_level><licensable>true</licensable><license/><license_category>none</license_category><license_definition/><license_model>none</license_model><logo/><menu/><name>Release Date</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>global</scope><scoped_administration>false</scoped_administration><short_description>Set the release date in the update set as soon as it is committed in the upper instance</short_description><source>541350241bc6c59015ab1f4a234bcbd2</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>alealvar</sys_created_by><sys_created_on>2022-03-01 20:28:54</sys_created_on><sys_id>541350241bc6c59015ab1f4a234bcbd2</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>alealvar</sys_updated_by><sys_updated_on>2022-03-01 20:28:55</sys_updated_on><template/><trackable>true</trackable><uninstall_blocked>false</uninstall_blocked><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app></record_update>]]></payload>
+<payload_hash>1254884403</payload_hash>
+<remote_update_set display_value="Release Date">a48ad3b31bc28d1015ab1f4a234bcbbd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>alealvar</sys_created_by>
+<sys_created_on>2022-03-12 13:20:32</sys_created_on>
+<sys_id>688a17771bc28d1015ab1f4a234bcb3a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17f7e23ea080000001</sys_recorded_at>
+<sys_updated_by>alealvar</sys_updated_by>
+<sys_updated_on>2022-03-12 13:20:32</sys_updated_on>
+<table/>
+<target_name>Release Date</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</application>
+<category>customer</category>
+<comments/>
+<name>sysevent_register_27f458201b8ac59015ab1f4a234bcb66</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><description/><event_name>release_date.send_to_lower_env</event_name><fired_by>BR: Post release date to lower environment</fired_by><queue/><suffix/><sys_class_name>sysevent_register</sys_class_name><sys_created_by>alealvar</sys_created_by><sys_created_on>2022-03-01 20:37:44</sys_created_on><sys_id>27f458201b8ac59015ab1f4a234bcb66</sys_id><sys_mod_count>0</sys_mod_count><sys_name>release_date.send_to_lower_env</sys_name><sys_package display_value="Release Date" source="541350241bc6c59015ab1f4a234bcbd2">541350241bc6c59015ab1f4a234bcbd2</sys_package><sys_policy/><sys_scope display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</sys_scope><sys_update_name>sysevent_register_27f458201b8ac59015ab1f4a234bcb66</sys_update_name><sys_updated_by>alealvar</sys_updated_by><sys_updated_on>2022-03-01 20:37:44</sys_updated_on><table>sys_remote_update_set</table></sysevent_register></record_update>]]></payload>
+<payload_hash>1226133008</payload_hash>
+<remote_update_set display_value="Release Date">a48ad3b31bc28d1015ab1f4a234bcbbd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>alealvar</sys_created_by>
+<sys_created_on>2022-03-12 13:20:32</sys_created_on>
+<sys_id>688ad3b31bc28d1015ab1f4a234bcbbd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17f7e23ea240000001</sys_recorded_at>
+<sys_updated_by>alealvar</sys_updated_by>
+<sys_updated_on>2022-03-12 13:20:32</sys_updated_on>
+<table>sys_remote_update_set</table>
+<target_name>release_date.send_to_lower_env</target_name>
+<type>Event Registration</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_definition_5ae65c241b8ac59015ab1f4a234bcbaf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition"><sys_ws_definition action="INSERT_OR_UPDATE"><active>true</active><base_uri>/api/660033/update_set</base_uri><consumes>application/json,application/xml,text/xml</consumes><consumes_customized>false</consumes_customized><default_version>No active default version</default_version><doc_link/><enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl><is_versioned>false</is_versioned><name>Update Set</name><namespace>660033</namespace><produces>application/json,application/xml,text/xml</produces><produces_customized>false</produces_customized><service_id>update_set</service_id><short_description/><sys_class_name>sys_ws_definition</sys_class_name><sys_created_by>alealvar</sys_created_by><sys_created_on>2022-03-01 20:45:49</sys_created_on><sys_id>5ae65c241b8ac59015ab1f4a234bcbaf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Update Set</sys_name><sys_package display_value="Release Date" source="541350241bc6c59015ab1f4a234bcbd2">541350241bc6c59015ab1f4a234bcbd2</sys_package><sys_policy/><sys_scope display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</sys_scope><sys_update_name>sys_ws_definition_5ae65c241b8ac59015ab1f4a234bcbaf</sys_update_name><sys_updated_by>alealvar</sys_updated_by><sys_updated_on>2022-03-01 20:45:49</sys_updated_on></sys_ws_definition></record_update>]]></payload>
+<payload_hash>253711909</payload_hash>
+<remote_update_set display_value="Release Date">a48ad3b31bc28d1015ab1f4a234bcbbd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>alealvar</sys_created_by>
+<sys_created_on>2022-03-12 13:20:32</sys_created_on>
+<sys_id>a08a17771bc28d1015ab1f4a234bcb3b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17f7e23ea320000001</sys_recorded_at>
+<sys_updated_by>alealvar</sys_updated_by>
+<sys_updated_on>2022-03-12 13:20:32</sys_updated_on>
+<table/>
+<target_name>Update Set</target_name>
+<type>Scripted REST API</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_query_parameter_map_4e0814e41b8ac59015ab1f4a234bcb13</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map"><sys_ws_query_parameter_map action="INSERT_OR_UPDATE"><sys_class_name>sys_ws_query_parameter_map</sys_class_name><sys_created_by>alealvar</sys_created_by><sys_created_on>2022-03-01 20:50:40</sys_created_on><sys_id>4e0814e41b8ac59015ab1f4a234bcb13</sys_id><sys_mod_count>0</sys_mod_count><sys_name>b56798641b8ac59015ab1f4a234bcb4f</sys_name><sys_package display_value="Release Date" source="541350241bc6c59015ab1f4a234bcbd2">541350241bc6c59015ab1f4a234bcbd2</sys_package><sys_policy/><sys_scope display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</sys_scope><sys_update_name>sys_ws_query_parameter_map_4e0814e41b8ac59015ab1f4a234bcb13</sys_update_name><sys_updated_by>alealvar</sys_updated_by><sys_updated_on>2022-03-01 20:50:40</sys_updated_on><web_service_operation display_value="Release date">11a7d4a41b8ac59015ab1f4a234bcba6</web_service_operation><web_service_query_parameter display_value="sys_id">b56798641b8ac59015ab1f4a234bcb4f</web_service_query_parameter></sys_ws_query_parameter_map></record_update>]]></payload>
+<payload_hash>-606112098</payload_hash>
+<remote_update_set display_value="Release Date">a48ad3b31bc28d1015ab1f4a234bcbbd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>alealvar</sys_created_by>
+<sys_created_on>2022-03-12 13:20:32</sys_created_on>
+<sys_id>ac8a17771bc28d1015ab1f4a234bcb3b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17f7e23ea5c0000001</sys_recorded_at>
+<sys_updated_by>alealvar</sys_updated_by>
+<sys_updated_on>2022-03-12 13:20:32</sys_updated_on>
+<table/>
+<target_name>b56798641b8ac59015ab1f4a234bcb4f</target_name>
+<type>Scripted REST Query Parameter Associatio</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_query_parameter_cb0790641b8ac59015ab1f4a234bcb4d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter"><sys_ws_query_parameter action="INSERT_OR_UPDATE"><example_value>1640106276</example_value><name>release_date</name><required>false</required><short_description>Unix-format timestamp</short_description><sys_class_name>sys_ws_query_parameter</sys_class_name><sys_created_by>alealvar</sys_created_by><sys_created_on>2022-03-01 20:46:49</sys_created_on><sys_id>cb0790641b8ac59015ab1f4a234bcb4d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>release_date</sys_name><sys_package display_value="Release Date" source="541350241bc6c59015ab1f4a234bcbd2">541350241bc6c59015ab1f4a234bcbd2</sys_package><sys_policy/><sys_scope display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</sys_scope><sys_update_name>sys_ws_query_parameter_cb0790641b8ac59015ab1f4a234bcb4d</sys_update_name><sys_updated_by>alealvar</sys_updated_by><sys_updated_on>2022-03-01 20:46:49</sys_updated_on><web_service_definition display_value="Update Set">5ae65c241b8ac59015ab1f4a234bcbaf</web_service_definition></sys_ws_query_parameter></record_update>]]></payload>
+<payload_hash>-1312246479</payload_hash>
+<remote_update_set display_value="Release Date">a48ad3b31bc28d1015ab1f4a234bcbbd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>alealvar</sys_created_by>
+<sys_created_on>2022-03-12 13:20:32</sys_created_on>
+<sys_id>e88a17771bc28d1015ab1f4a234bcb3b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17f7e23ea3a0000001</sys_recorded_at>
+<sys_updated_by>alealvar</sys_updated_by>
+<sys_updated_on>2022-03-12 13:20:32</sys_updated_on>
+<table/>
+<target_name>release_date</target_name>
+<type>Scripted REST Query Parameter</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_2da350ac1b4ac59015ab1f4a234bcb54</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sys_remote_update_set&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="sys_remote_update_set"&gt;stateCHANGESTOcommitted^update_sourceISNOTEMPTY^sys_class_name=sys_remote_update_set^EQ&lt;item display_value="Committed" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="committed"/&gt;&lt;item endquery="false" field="update_source" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item display_value="Retrieved Update Set" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="sys_remote_update_set"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Post release date to lower environment&lt;/name&gt;&lt;order&gt;10000&lt;/order&gt;&lt;priority&gt;10000&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var grUpdateSource = current.update_source.getRefRecord();
+
+    var data = {};
+    data.url = grUpdateSource.getValue('url');
+    data.user = grUpdateSource.getValue('username');
+
+    var encryptedPass = grUpdateSource.getValue('password');
+    var Encrypter = new GlideEncrypter();
+    data.pass = Encrypter.decrypt(encryptedPass);
+
+    data.sys_id = current.getValue('remote_sys_id');
+
+    var strCommitDate = grInputUpdateSet.getValue('commit_date');
+    var gdtCommitDate = new GlideDateTime(strCommitDate);
+    data.timestamp = gdtCommitDate.getNumericValue();
+
+    gs.eventQueue('release_date.send_to_lower_env', current, JSON.stringify(data));
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alealvar&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-01 20:36:59&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2da350ac1b4ac59015ab1f4a234bcb54&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Post release date to lower environment&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Release Date" source="541350241bc6c59015ab1f4a234bcbd2"&gt;541350241bc6c59015ab1f4a234bcbd2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Release Date"&gt;541350241bc6c59015ab1f4a234bcbd2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_2da350ac1b4ac59015ab1f4a234bcb54&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alealvar&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-01 20:36:59&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;async_always&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2da350ac1b4ac59015ab1f4a234bcb54"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>314356954</payload_hash>
+<remote_update_set display_value="Release Date">a48ad3b31bc28d1015ab1f4a234bcbbd</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>alealvar</sys_created_by>
+<sys_created_on>2022-03-12 13:20:32</sys_created_on>
+<sys_id>ec8a17771bc28d1015ab1f4a234bcb3a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17f7e23ea1d0000001</sys_recorded_at>
+<sys_updated_by>alealvar</sys_updated_by>
+<sys_updated_on>2022-03-12 13:20:32</sys_updated_on>
+<table>sys_remote_update_set</table>
+<target_name>Post release date to lower environment</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
