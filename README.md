@@ -18,36 +18,6 @@ Populate the *release date* attribute as soon as the update set is committed in 
 - **Update source** configured
 - Update set **retrieved from remote update source**
 
-## Technical solution
-
-### Destiny
-
-Stuff installed in the environment where the update set is committed.
-
-#### Business rule
-
-- `Post release date to lower environment`: Triggered after committing a new update set from an update source. Inserts a new event `release_date.send_to_lower_env` in the queue.
-
-#### Events
-
-- Event registered: `release_date.send_to_lower_env`
-- Script action: Post a REST message to the update source
-
-#### System properties
-
-| Property name | Description |
-| ------------- | ----------- |
-| `release_date.resource_path` | Stores the endpoint of the API in the source environment |
-
-### Source
-
-#### REST API
-
-- Resource: [POST] Release date
-  - Query parameter(s)
-    - Update set sys_id
-    - Commitment date
-
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlexAlvarez092/SN-Release-Date-Update-Set.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlexAlvarez092/SN-Release-Date-Update-Set/graphs/contributors
