@@ -11,7 +11,6 @@ Populate the *release date* attribute as soon as the update set is committed in 
 ## Installation
 
 - Option 1. Cloning repository
-- Option 2. Committing [update set](./releases/release_date_v100.xml)
 
 ## Dependencies
 
