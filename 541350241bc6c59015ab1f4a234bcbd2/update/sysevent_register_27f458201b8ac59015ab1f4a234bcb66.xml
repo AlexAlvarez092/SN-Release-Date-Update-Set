@@ -2,22 +2,22 @@
     <sysevent_register action="INSERT_OR_UPDATE">
         <caller_access/>
         <description/>
-        <event_name>release_date.send_to_lower_env</event_name>
-        <fired_by>BR: Post release date to lower environment</fired_by>
+        <event_name>put_release_date</event_name>
+        <fired_by>BR: PUT Release Date</fired_by>
         <queue/>
         <suffix/>
         <sys_class_name>sysevent_register</sys_class_name>
         <sys_created_by>alealvar</sys_created_by>
         <sys_created_on>2022-03-01 20:37:44</sys_created_on>
         <sys_id>27f458201b8ac59015ab1f4a234bcb66</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>release_date.send_to_lower_env</sys_name>
-        <sys_package display_value="Release Date" source="541350241bc6c59015ab1f4a234bcbd2">541350241bc6c59015ab1f4a234bcbd2</sys_package>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>put_release_date</sys_name>
+        <sys_package display_value="Update Set - Release Date" source="541350241bc6c59015ab1f4a234bcbd2">541350241bc6c59015ab1f4a234bcbd2</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</sys_scope>
+        <sys_scope display_value="Update Set - Release Date">541350241bc6c59015ab1f4a234bcbd2</sys_scope>
         <sys_update_name>sysevent_register_27f458201b8ac59015ab1f4a234bcb66</sys_update_name>
-        <sys_updated_by>alealvar</sys_updated_by>
-        <sys_updated_on>2022-03-01 20:37:44</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 15:18:40</sys_updated_on>
         <table>sys_remote_update_set</table>
     </sysevent_register>
 </record_update>

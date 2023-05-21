@@ -3,14 +3,14 @@
         <active>true</active>
         <condition_script/>
         <description/>
-        <event_name>release_date.send_to_lower_env</event_name>
-        <name>Post release date to lower environment</name>
+        <event_name>put_release_date</event_name>
+        <name>PUT Release Date</name>
         <order>100</order>
         <script><![CDATA[(function(){
     
 	try {
         var data = JSON.parse(event.parm1);
-        var resourcePath = gs.getProperty('release_date.resource_path');
+        var resourcePath = gs.getProperty('put_release_date.resource_path');
 
         var endpoint = data.url + resourcePath + '?sys_id=' + data.sys_id + '&release_date=' + data.timestamp;
 
@@ -36,14 +36,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b606dc601b8ac59015ab1f4a234bcba0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Post release date to lower environment</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>PUT Release Date</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Release Date" source="541350241bc6c59015ab1f4a234bcbd2">541350241bc6c59015ab1f4a234bcbd2</sys_package>
+        <sys_package display_value="Update Set - Release Date" source="541350241bc6c59015ab1f4a234bcbd2">541350241bc6c59015ab1f4a234bcbd2</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</sys_scope>
+        <sys_scope display_value="Update Set - Release Date">541350241bc6c59015ab1f4a234bcbd2</sys_scope>
         <sys_update_name>sysevent_script_action_b606dc601b8ac59015ab1f4a234bcba0</sys_update_name>
-        <sys_updated_by>alealvar</sys_updated_by>
-        <sys_updated_on>2022-03-01 20:44:06</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 15:19:15</sys_updated_on>
     </sysevent_script_action>
 </record_update>

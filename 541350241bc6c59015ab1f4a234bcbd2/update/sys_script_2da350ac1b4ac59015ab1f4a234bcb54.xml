@@ -22,7 +22,7 @@
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>Post release date to lower environment</name>
+        <name>PUT Release Date</name>
         <order>10000</order>
         <priority>10000</priority>
         <rest_method/>
@@ -34,22 +34,22 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
     var grUpdateSource = current.update_source.getRefRecord();
-
-    var data = {};
-    data.url = grUpdateSource.getValue('url');
-    data.user = grUpdateSource.getValue('username');
-
-    var encryptedPass = grUpdateSource.getValue('password');
+	
+	var encryptedPass = grUpdateSource.getValue('password');
     var Encrypter = new GlideEncrypter();
-    data.pass = Encrypter.decrypt(encryptedPass);
-
-    data.sys_id = current.getValue('remote_sys_id');
-
-    var strCommitDate = grInputUpdateSet.getValue('commit_date');
+	
+	var strCommitDate = grInputUpdateSet.getValue('commit_date');
     var gdtCommitDate = new GlideDateTime(strCommitDate);
-    data.timestamp = gdtCommitDate.getNumericValue();
 
-    gs.eventQueue('release_date.send_to_lower_env', current, JSON.stringify(data));
+    var data = {
+		url: grUpdateSource.getValue('url'),
+		user: grUpdateSource.getValue('username'),
+		pass: Encrypter.decrypt(encryptedPass),
+		sys_id: current.getValue('remote_sys_id'),
+		timestamp: gdtCommitDate.getNumericValue()
+	};
+
+    gs.eventQueue('put_release_date', current, JSON.stringify(data));
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -58,15 +58,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2da350ac1b4ac59015ab1f4a234bcb54</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Post release date to lower environment</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>PUT Release Date</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Release Date" source="541350241bc6c59015ab1f4a234bcbd2">541350241bc6c59015ab1f4a234bcbd2</sys_package>
+        <sys_package display_value="Update Set - Release Date" source="541350241bc6c59015ab1f4a234bcbd2">541350241bc6c59015ab1f4a234bcbd2</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Release Date">541350241bc6c59015ab1f4a234bcbd2</sys_scope>
+        <sys_scope display_value="Update Set - Release Date">541350241bc6c59015ab1f4a234bcbd2</sys_scope>
         <sys_update_name>sys_script_2da350ac1b4ac59015ab1f4a234bcb54</sys_update_name>
-        <sys_updated_by>alealvar</sys_updated_by>
-        <sys_updated_on>2022-03-01 20:36:59</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 15:18:54</sys_updated_on>
         <template/>
         <when>async_always</when>
     </sys_script>
