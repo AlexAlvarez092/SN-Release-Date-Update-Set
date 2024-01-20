@@ -22,7 +22,7 @@
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>PUT Release Date</name>
+        <name>Send release date to remote instance</name>
         <order>10000</order>
         <priority>10000</priority>
         <rest_method/>
@@ -58,15 +58,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2da350ac1b4ac59015ab1f4a234bcb54</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>PUT Release Date</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Send release date to remote instance</sys_name>
         <sys_overrides/>
         <sys_package display_value="Update Set - Release Date" source="541350241bc6c59015ab1f4a234bcbd2">541350241bc6c59015ab1f4a234bcbd2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Update Set - Release Date">541350241bc6c59015ab1f4a234bcbd2</sys_scope>
         <sys_update_name>sys_script_2da350ac1b4ac59015ab1f4a234bcb54</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-21 15:18:54</sys_updated_on>
+        <sys_updated_on>2024-01-20 09:41:29</sys_updated_on>
         <template/>
         <when>async_always</when>
     </sys_script>
